@@ -11,9 +11,9 @@ namespace appForce
         {
             Cliente cliente = new Cliente();
 
-            cliente.nome = "denis";
-            cliente.sonrenome = "couras";
-            cliente.idade = 36;
+            cliente.Nome = "denis";
+            cliente.Sobrenome = "couras";
+            cliente.Idade = 36;
 
             cliente.Salvar(cliente);
         }
