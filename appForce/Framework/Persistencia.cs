@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using System.Reflection;
-
+using SQLite;
 
 namespace appForce.Framework
 {
@@ -13,6 +13,7 @@ namespace appForce.Framework
             foreach(PropertyInfo info in obj.GetType().GetProperties())
             {
                 var teste = info.GetType();
+               
             }
 
             return true;
