@@ -12,7 +12,7 @@ namespace appForce.Framework
         {
             foreach(PropertyInfo info in obj.GetType().GetProperties())
             {
-
+                var teste = info.GetType();
             }
 
             return true;
