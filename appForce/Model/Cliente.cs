@@ -2,7 +2,6 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
-using
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace appForce.Model
