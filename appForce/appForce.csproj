@@ -84,6 +84,7 @@
     <CodesignKey>iPhone Distribution</CodesignKey>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Framework\Connection\ManagerConn.cs" />
     <Compile Include="Framework\Persistencia.cs" />
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
