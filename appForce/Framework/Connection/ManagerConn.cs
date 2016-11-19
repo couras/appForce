@@ -7,6 +7,11 @@ namespace appForce.Framework.Connection
 {
     class ManagerConn
     {
-        SQLiteConnection conn = new SQLiteConnection("");
+        SQLiteConnection conn = new SQLiteConnection("db");
+
+        public SQLiteConnection getConn()
+        {
+            return conn;
+        }
     }
 }
