@@ -1,4 +1,5 @@
-﻿using System;
+﻿using appForce.Model;
+using System;
 
 using UIKit;
 
@@ -8,6 +9,9 @@ namespace appForce
     {
         public ViewController(IntPtr handle) : base(handle)
         {
+            Cliente cliente = new Cliente();
+
+            cliente.Salvar(cliente);
         }
 
         public override void ViewDidLoad()
